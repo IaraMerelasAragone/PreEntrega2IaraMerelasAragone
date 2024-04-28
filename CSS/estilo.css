@@ -12,12 +12,49 @@
 .nav-link{
     color: white !important;
 }
+/* header */
 
+/* jumbotron profe */
 .jumbotron{
     background-image: url(/assets/industria.jpg);
     height: 350px;
+    background-size: cover;
+    background-position: center;
     color:#333;
 }
+
+/* nosotros profe */
+h2{
+    text-align: center;
+    background-color: #333;
+    padding: 20px;
+    color:white;
+    text-shadow: 0 0 5px black;
+}
+
+.nleft{
+    background-image: url(/assets/domicilio.jpg);
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+}
+
+h3{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* feature profe */
+article{
+    border: 2px solid black;
+    text-align: center;
+}
+
+article i{
+    font-size: 25px;
+    color:#333
+}
+
 
 
 /* main home */
@@ -142,22 +179,25 @@ main{
     margin-right: 15px;
 }
 
-/* redes */
 
-.redes{
-    color: white;
-    margin-top: 50px;
-    margin-bottom: 10px;
-    text-align: center;
-}
 
 /* footer */
 footer{
     background-color: rgb(91, 87, 87);
-    color: white;
-    border: 1px solid whitesmoke;
+    font-size: 25px;
     padding: 7px;
     font-family:'Times New Roman', Times, serif;
-    font-size: 16px;
     text-align: center;
+    color: white;
+}
+
+footer a{
+    color: white;
+    font-size: 25px;
+    letter-spacing: 15px;
+    text-decoration: none;
+}
+
+a :hover{
+    color:#333
 }
