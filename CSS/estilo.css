@@ -1,12 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
-/* @import de la fuente de google font, aca se ubica por encima de todo */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Oswald", sans-serif;
-    /* declaramos aca la fuente indicandole que se usara en toda la pagina a no ser que lo aclaremos en algun sector */
+    font-family: "Montserrat", sans-serif;
 }
 
 html{
@@ -16,22 +14,15 @@ html{
 /* nav */
 .navbar{
     background-color: #333;
-/*     padding: 20px;
-    height: 80px;
-    font-size: 22px;
-    color: white; */
+    font-size: 15px;
 }
 
 .nav-link{
     color: white !important;
 }
 
-main{
-    background-color: rgb(124, 119, 119);
-    color: white;
-    border: 1px solid whitesmoke;
-    padding: 10px;
-    text-align: left;
+span{
+    text-shadow: 0 0 2px white;
 }
 
 /* index */
@@ -46,57 +37,147 @@ main{
 .bienvenidos{
     background-color: rgba(0, 0, 0, 0.3);
     padding: 20px;
+    border: 4px solid #333333a5;
+}
+
+.envio{
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #333;
+    text-align: center;
+    padding: 50px;
+}
+
+.envio h2{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.envio p{
+    padding: 10px;
+}
+
+.galeria{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 300px);
+    padding: 20px;
+    margin-top: 25px;
+    grid-gap: 5px;
+}
+
+.item{
     border: 4px solid #333;
+    background-position: center;
+    background-size: cover;
+}
+
+.item1{
+    background-image: url(../assets/c106.jpg);
+}
+
+.item2{
+    background-image: url(../assets/bison.25t.jpg);
+}
+
+.item3{
+    background-image: url(../assets/bob.30.jpg);
+}
+
+.item4{
+    background-image: url(../assets/bs346.jpg);
+}
+
+.item5{
+    background-image: url(../assets/bull.20m-2.jpg);
+}
+
+.item6{
+    background-image: url(../assets/batcorr.jpg);
+}
+
+.item7{
+    background-image: url(../assets/cerrmagnet.jpg);
+}
+
+.item8{
+    background-image: url(../assets/digi209.jpg);
+}
+
+.soluciones{
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.soluciones img{
+    height: 250px;
+    width: 300px;
 }
 
 .infoinicio{
-    margin-top: 20px;
-    text-align: center;
-    padding: 7px;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.infoninicio h3{
+    font-size: 20px;
 }
 
 /* nosotros */
-.nosotros h2{
-    text-align: center;
-    background-color: #333;
+.nosestructura{
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #333;
     padding: 20px;
-    color:white;
-    text-shadow: 0 0 5px black;
+}
+
+.conocernos{
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 .nleft{
     background-image: url(/assets/frentecontroll.jpg);
+    border: 4px solid #333;
+    box-shadow: 0 0 15px white;
     height: 350px;
     background-size: cover;
     background-position: center;
 }
 
-.nosotros h3{
-    text-align: center;
-    text-transform: uppercase;
+.unir{
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 30px;
 }
 
-.unir{
-    background-color: rgba(0, 0, 0, 0.3);
-    padding: 20px;
-    border: 4px solid #333;
-    overflow: auto;
+.unir img{
+    border: 4px solid #333333a5;
+    height: 300px;
+    width: 300px;
+    margin-top: 15px;
 }
 
 .video{
+    margin-top: 15px;
+    margin-bottom: 15px;
     align-items: center;
     text-align: center;
-    padding: 7px;
+    padding: 20px;
     overflow: auto;
 }
 
 .responsabilidad{
-    margin-top: 20px;
     text-align: center;
     padding: 7px;
 }
 
 /* servicios */
+
+.servestructura{
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #333;
+    padding: 20px;
+}
+
 .feature{
     height: auto;
 }
@@ -120,10 +201,17 @@ article i{
 }
 
 /* productos */
+
+.prodestructura{
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #333;
+    padding: 20px;
+}
+
 .automatismos{
     background-color: rgba(0, 0, 0, 0.3);
     padding: 20px;
-    border: 4px solid #333;
+    border: 4px solid #33333338;
     overflow: auto;
 }
 .portones{
@@ -141,14 +229,16 @@ article i{
 }
 
 /* contacto */
-.contacta{
-    text-align: center;
-    font-size: 25px;
+
+.formestructura{
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #333;
+    padding: 50px;
 }
 
-.formulario{
-    margin-top: 30px;
-    margin-left: 40px;
+.formestructura h1{
+    text-align: center;
+    font-size: 30px;
 }
 
 .mapa{
@@ -157,14 +247,11 @@ article i{
     overflow: auto;
 }
 
-
-
 /* footer */
 footer{
-    background-color: rgb(91, 87, 87);
-    font-size: 25px;
-    padding: 7px;
-    font-family:'Times New Roman', Times, serif;
+    background-color: #333;
+    font-size: 15px;
+    padding: 10px;
     text-align: center;
     color: white;
 }
@@ -172,30 +259,83 @@ footer{
 footer a{
     color: white;
     font-size: 25px;
-    letter-spacing: 5px;
+    letter-spacing: 10px;
     text-decoration: none;
 }
 
 footer a:hover{
-    color:#333
+    color: black;
 }
 
 .subir{
     height: 40px;
     width: 40px;
     background-color: #333;
-    color: #fff;
     position: fixed;
-    /* lo fija subamos o bajemos */
     right: 40px;
     bottom: 40px;
-    /* el right y el bottom en este caso estan ubicandolo en el bottom a la derecha, por eso tomo estas */
     text-align: center;
-    /* para centrar el icono */
     line-height: 40px;
-    /* interlineado, alinea en el eje de altura al tener la misma dimension que el height, ayuda en el centrado en este caso */
     font-size: 20px;
     border-radius: 50%;
     box-shadow: 0 0 5px 5px #fff;
-    /* esa repeticion de 5px intensifica esa sombra, antes use text-shadow (textos), box-shadow (contenedor) */
+    color: #fff;
+}
+
+@media only screen and (min-width:480px){
+    .galeria{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 180px);
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px){
+    .galeria{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .item1{
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+
+    .item2{
+        grid-column: 3/4;
+        grid-row: 1/3;
+    }
+
+    .item3{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .item4{
+        grid-column: 2/3;
+        grid-row: 2/4;
+    }
+
+    .item5{
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    .item6{
+        grid-column: 3/4;
+        grid-row: 3/5;
+    }
+
+    .item7{
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+    .item8{
+        grid-column: 2/3;
+        grid-row: 4/5;
+    }
+}
+
+@media only screen and (min-width:1024px){
+    .galeria{
+        grid-template-columns: repeat(4, 350px);
+        grid-template-rows: repeat(2, 350px);
+    }
 }
