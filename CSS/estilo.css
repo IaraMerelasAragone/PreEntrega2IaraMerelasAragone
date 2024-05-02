@@ -109,6 +109,7 @@ span{
 }
 
 .soluciones img{
+    border-radius: 2%;
     height: 250px;
     width: 300px;
 }
@@ -130,7 +131,7 @@ span{
 }
 
 .conocernos{
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 30px;
 }
 
@@ -145,11 +146,12 @@ span{
 
 .unir{
     font-size: 18px;
-    margin-top: 20px;
+    margin-top: 50px;
     padding: 30px;
 }
 
 .unir img{
+    border-radius: 2%;
     border: 4px solid #333333a5;
     height: 300px;
     width: 300px;
@@ -157,7 +159,7 @@ span{
 }
 
 .video{
-    margin-top: 15px;
+    margin-top: 35px;
     margin-bottom: 15px;
     align-items: center;
     text-align: center;
@@ -166,24 +168,38 @@ span{
 }
 
 .responsabilidad{
+    margin-top: 35px;
     text-align: center;
     padding: 7px;
 }
 
 /* servicios */
-
 .servestructura{
     background-color: rgba(0, 0, 0, 0.3);
     color: #333;
     padding: 20px;
 }
 
+.caract{
+    font-size: 28px;
+}
+
+.caract1{
+    font-size: 22px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
 .feature{
-    height: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 article{
+    border: 2px solid #fff;
     text-align: center;
+    padding: 30px;
+    box-shadow: 0 0 10px #333;
 }
 
 article i{
@@ -196,40 +212,67 @@ article i{
     padding: 7px;
 }
 
+.novedades h3{
+    margin-top: 25px;
+    font-size: 28px;
+}
+
 .novedades i{
-    color: black;
+    font-size: 30px;
+    color: #fff;
+    margin: 20px 20px;
+    text-shadow: 0 0 10px #333;
+}
+
+.garantia{
+    padding: 30px;
+}
+
+.web{
+    padding: 30px;
 }
 
 /* productos */
-
 .prodestructura{
     background-color: rgba(0, 0, 0, 0.3);
     color: #333;
     padding: 20px;
 }
 
-.automatismos{
-    background-color: rgba(0, 0, 0, 0.3);
-    padding: 20px;
-    border: 4px solid #33333338;
-    overflow: auto;
-}
-.portones{
-    background-color: rgba(0, 0, 0, 0.3);
-    padding: 20px;
-    border: 4px solid #333;
-    overflow: auto;
+.h1prod{
+    font-size: 25px;
 }
 
-.puertas{
-    background-color: rgba(0, 0, 0, 0.3);
-    padding: 20px;
-    border: 4px solid #333;
-    overflow: auto;
+.cards{
+    text-align: center;
+    font-size: 25px;
+    padding: 40px;
+    margin-top: 20px;
+    text-shadow: 0 0 5px #fff;
+    font-weight: bolder;
+}
+
+.prod{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+    border: 5px solid rgba(0, 0, 0, 0.455);
+    margin-bottom: 30px;
+}
+
+.detalles{
+    font-weight: bold;
+}
+
+.card-img{
+    height: 250px;
+    background-size: cover;
+    background-position: center;
 }
 
 /* contacto */
-
 .formestructura{
     background-color: rgba(0, 0, 0, 0.3);
     color: #333;
